@@ -8,6 +8,7 @@
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
+    --darkTopperColor: #cd89c4;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -107,7 +108,7 @@ body.dark-mode .cs-focus {
 }
 
 body.dark-mode .cs-topper {
-    color: var(--primaryDark);
+    color: var(--darkTopperColor);
 }
 
 body.dark-mode .cs-focus-2 {

@@ -190,7 +190,7 @@
         fill: var(--dark);
     }
     body.dark-mode #hero-856 .cs-topper {
-        color: var(--primaryDark);
+        color: var(--darkTopperColor);
     }
     body.dark-mode #hero-856 .cs-button-solid{
         background-color: var(--primaryDark);
