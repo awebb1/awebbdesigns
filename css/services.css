@@ -175,7 +175,7 @@
         background-color: #e5e5e5;
     }
 
-    #services-285 .cs-card-group {
+    #services-285 .cs-item {
         height:400px;
         margin-top:40px;
         -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
@@ -188,12 +188,12 @@
         transition: .4s;
         opacity: 0;
     }
-    #services-285 .cs-card-group.inView {
+    #services-285 .cs-item.inView {
         opacity: 1;
         -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
         transform: translateY(0px) rotate(0deg) translateZ(0);
     }
-    #services-285 .cs-card-group.inView {
+    #services-285 .cs-item.inView {
         opacity: 1;
         -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
         transform: translateY(0px) rotate(0deg) translateZ(0);

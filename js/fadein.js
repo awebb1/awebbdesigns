@@ -1,4 +1,4 @@
-let elementsArray = document.querySelectorAll(".cs-card-group");
+let elementsArray = document.querySelectorAll(".cs-item");
 console.log(elementsArray);
 window.addEventListener('scroll', fadeIn ); 
 function fadeIn() {
