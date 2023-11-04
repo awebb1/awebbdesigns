@@ -373,7 +373,7 @@
   }
   #cs-navigation .cs-li-link {
     /* 14px - 16px */
-    font-size: clamp(0.875rem, 1vw, 1rem);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
     line-height: 1.5em;
     text-decoration: none;
     margin: 0;
@@ -449,7 +449,10 @@
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-li-link:before {
-    background-color: var(--primaryLight);
+    background-color: var(--primaryDark);
+  }
+  body.dark-mode #cs-navigation .cs-button-solid {
+    background-color: var(--primaryDark);
   }
 }
                                 

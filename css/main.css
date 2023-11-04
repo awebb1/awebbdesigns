@@ -1,7 +1,8 @@
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #ff6a3e;
+    --primary: #1B3D3C;
     --primaryLight: #ffba43;
+    --primaryDark: #9e6e98;
     --secondary: #ffba43;
     --secondaryLight: #ffba43;
     --headerColor: #1a1a1a;
@@ -11,7 +12,7 @@
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
     --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-    --bodyFontSize: 1rem;
+    --bodyFontSize: clamp(1rem, 1.5vw, 1.25rem);
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
 }
@@ -57,4 +58,51 @@ body {
     margin: 0;
     color: var(--bodyTextColor);
 }
-                            
+
+.cs-focus {
+    color: var(--primary);
+}
+
+/* Mobile - 360px */
+/* you can copy and paste these styles into the section CSS where you placed the #list-893 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
+#list-893 {
+    max-width: 39.375rem;
+    margin: 0 0 2rem 0;
+    padding: 0;
+    columns: 2;
+}
+#list-893 .cs-li {
+    list-style: none;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.75rem;
+    position: relative;
+}
+#list-893 .cs-li:before {
+    /* accent shape */
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background: #bababa;
+    border-radius: 0.25rem 0 0.25rem 0;
+    display: block;
+    /* prevents flexbox from squishing it */
+    flex: none;
+}
+/* Dark Mode, copy and paste only the styles inside the #list-893 brackets into your section's dark mode media query */
+body.dark-mode #list-893 .cs-li {
+    color: var(--bodyTextColorWhite);
+    opacity: 0.8;
+}
+
+body.dark-mode .cs-focus {
+    color: var(--primaryDark);
+}
+
+body.dark-mode .cs-topper {
+    color: var(--primaryDark);
+}
+                                

@@ -7,6 +7,11 @@
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" type="text/css" href="css/dark.css">
+		<link rel="stylesheet" type="text/css" href="css/hero.css">
+		<link rel="stylesheet" type="text/css" href="css/services.css">
+		<link rel="stylesheet" type="text/css" href="css/included.css">
+		<link rel="stylesheet" type="text/css" href="css/what.css">
 	</head>
 	<body>
 		<!-- ============================================ -->
@@ -62,14 +67,160 @@
 		        </nav>
 		        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
 		        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
-		        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+		        <button id="dark-mode-toggle" aria-label="dark mode toggle">
 		            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
-		            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
-		        </button> -->
-		    </div>
+		            <img class="cs-sun" aria-hidden="true" src="svgs/sun.svg" decoding="async" alt="sun" width="15" height="15">
+		        </button>
+		    </div>                  
 		</header>
-         
-         <script src="js/nav.js"></script>                 
+        <!-- ============================================ -->
+		<!--                    Hero                      -->
+		<!-- ============================================ -->
+
+		<section id="hero-856">
+		    <div class="cs-container">
+		        <div class="cs-content">
+		            <span class="cs-topper">Modern, Fast, Affordable</span>
+		            <h1 class="cs-title">High-Quality Websites Low-Cost Rates</h1>
+		            <p class="cs-text">
+		                No builders. No Wordpress. I make hand-coded websites with affordability and performance in mind. Starting at only $150/mo.
+		            </p>
+		            <a href="" class="cs-button-solid">Schedule An Appointment</a>
+		        </div>
+		        <!--Hero Image-->
+		        <picture class="cs-picture">
+		            <!--Mobile-->
+		            <source media="(max-width: 600px)" srcset="img/coder.png">
+		            <!--Tablet-->
+		            <source media="(min-width: 601px)" srcset="img/coder.png">
+		            <!--Desktop-->
+		            <source media="(min-width: 1024px)" srcset="img/coder.png">
+		            <img aria-hidden="true" decoding="async" src="img/coder.png" alt="therapy" width="570" height="701">
+		            </picture>
+		    </div>
+		    <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece-->
+		    <svg class="cs-wave" width="1920" height="179" viewBox="0 0 1920 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+		        <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 179V91.3463C1835.33 91.3463 1715.47 76.615 1549.2 32.9521C1299.48 -32.3214 1132.77 12.1006 947.32 61.5167C810.762 97.9044 664.042 137 466.533 137C331.607 137 256.468 123.447 188.082 111.113C130.974 100.812 78.5746 91.3609 0 91.3609V179H1920Z" fill="white"/>
+		    </svg>
+		</section>
+
+
+		<!-- ============================================ -->
+		<!--                  Services                    -->
+		<!-- ============================================ -->
+
+		<section id="services-285">
+		    <div class="cs-container">
+		        <div class="cs-content">
+		            <h2 class="cs-title"><span class="cs-focus">What</span> I Do</h2>
+		            <p class="cs-text">
+		                I specialize in affordable web design with small businesses in mind. My sites are hand-written and tested to ensure top performance with the goal of bringing in more customers.
+		            </p>
+		        </div>
+		        <ul class="cs-card-group">
+		            <li class="cs-item">
+	                    <picture class="cs-picture">
+	                        <img class="cs-icon" src="svgs/cellphone.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+	                    </picture>
+	                    <h3 class="cs-h3">Mobile in Mind</h3>
+	                    <p class="cs-item-text">
+	                        Mobile devices are the priority. I make sure to focus on mobile first, then scale up to desktop and tablets after.
+	                    </p>
+		            </li>
+		            <li class="cs-item">
+	                    <picture class="cs-picture">
+	                        <img class="cs-icon" src="svgs/optimize.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+	                    </picture>
+	                    <h3 class="cs-h3">Optimization</h3>
+	                    <p class="cs-item-text">
+	                        With nearly 60% of all internet traffic coming from mobile phones, I ensure your site is optimized for handheld devices. 
+	                    </p>
+		            </li>
+		            <li class="cs-item">
+	                    <picture class="cs-picture">
+	                        <img class="cs-icon" src="svgs/responsive.svg" loading="lazy" decoding="async" alt="icon" width="38" height="52" aria-hidden="true">
+	                    </picture>
+	                    <h3 class="cs-h3">Responsive Design</h3>
+	                    <p class="cs-item-text">
+	                        Phone? Tablet? Desktop? I ensure your website is built to be viewed. Whatever your visitors use, your site will be prepared.
+	                    </p>
+		            </li>
+		        </ul>
+		    </div>
+		</section>
+                     
+        <!-- ============================================ -->
+		<!--             Side By Side Reverse             -->
+		<!-- ============================================ -->
+
+
+		<section id="sbsr-1363">
+			<div class="custom-shape-divider-top-1699058144">
+			    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+			        <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
+			    </svg>
+			</div>
+		    <div class="cs-container">
+		        <div class="cs-image-group">
+		            <picture class="cs-background">
+		                <!--Mobile Image-->
+		                <source media="(max-width: 600px)" srcset="img/code.webp">
+		                <!--Tablet and above Image-->
+		                <source media="(min-width: 601px)" srcset="img/code.webp">
+		                <img loading="lazy" decoding="async" src="img/code.webp" alt="people" width="605868" height="690">
+		            </picture>
+		            <div class="cs-box">
+		                <img class="cs-box-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg" alt="people" width="60" height="60">
+		                <span class="cs-desc">
+		                    We’ve Over 26 Years of Experience
+		                </span>
+		            </div>
+		        </div>
+		        <div class="cs-content">
+		            <h2 class="cs-title"><span class="cs-focus">What</span> You Get</h2>
+		            <p class="cs-text">
+		                On the other hand, we denounce with righteous indignation dislike men who areso beguiled and demoralized by the charms of pleasure moment blinded by desire that they cannot foresee
+		            </p>
+		            <ul class="cs-card-group">
+		                <li class="cs-item">
+		                    <h3 class="cs-h3">
+		                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trophy.svg" alt="icon" width="32" height="32">
+		                        Quality Services
+		                    </h3>
+		                    <p class="cs-item-text">
+		                        There are many variations of but the majority is simply free suffered.
+		                    </p>
+		                </li>
+		            </ul>
+		            <ul class="cs-ul">
+		                <li class="cs-li">
+		                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="svgs/circle-check.svg" alt="icon" width="32" height="32">
+		                    Digital Clean Checklist Prepared New Year
+		                </li>
+		                <li class="cs-li">
+		                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="svgs/circle-check.svg" alt="icon" width="32" height="32">
+		                    Digital Clean Checklist Prepared New Year
+		                </li>
+		                <li class="cs-li">
+		                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="svgs/circle-check.svg" alt="icon" width="32" height="32">
+		                    Digital Clean Checklist Prepared New Year
+		                </li>
+		                <li class="cs-li">
+		                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="svgs/circle-check.svg" alt="icon" width="32" height="32">
+		                    Digital Clean Checklist Prepared New Year
+		                </li>
+		            </ul>
+		            <a href="" class="cs-button-solid">Discover More</a>
+		        </div>
+		    </div>
+		    <div class="cs-bubbles" aria-hidden="true"></div>
+		</section>
+                                
+
+                                           
+                                
+         <script src="js/nav.js"></script>
+         <script src="js/dark.js"></script>            
 
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</body>
