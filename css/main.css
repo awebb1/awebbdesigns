@@ -63,6 +63,10 @@ body {
     color: var(--primary);
 }
 
+.cs-focus-2 {
+    color: var(--primary);
+}
+
 /* Mobile - 360px */
 /* you can copy and paste these styles into the section CSS where you placed the #list-893 HTML, or you can place it in your global stylesheet so you can reuse the HTML in any Side By Side section on your site. That way when you make changes to it, it will also change everywhere in the site */
 #list-893 {
@@ -104,5 +108,9 @@ body.dark-mode .cs-focus {
 
 body.dark-mode .cs-topper {
     color: var(--primaryDark);
+}
+
+body.dark-mode .cs-focus-2 {
+    color: #48CCB9;
 }
                                 
