@@ -86,6 +86,8 @@
         z-index: 1;
         /* prevents padding from adding to the width */
         box-sizing: border-box;
+        transition:
+            background-color 0.3s;
     }
     #hero-856 .cs-button-solid:before {
         content: "";
@@ -109,6 +111,7 @@
         /* 400px - 712px */
         height: clamp(25rem, 95vw, 44.5rem);
         /* 100px - 200px */
+        border: .2rem solid var(--primary);
         border-radius: 0 clamp(6.25rem, 17vw, 12.5rem) 0
             clamp(6.25rem, 17vw, 12.5rem);
         box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.16);
@@ -116,6 +119,8 @@
         overflow: hidden;
         display: block;
         position: relative;
+        transition:
+            border .5s;
     }
     #hero-856 .cs-picture img {
         position: absolute;
@@ -194,6 +199,12 @@
     }
     body.dark-mode #hero-856 .cs-button-solid{
         background-color: var(--primaryDark);
+        transition:
+            background-color 0.3s;
+    }
+    body.dark-mode #hero-856 .cs-picture {
+        border: .2rem solid transparent;
+
     }
 }
 

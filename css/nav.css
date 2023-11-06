@@ -289,6 +289,8 @@
   }
   #cs-navigation .cs-button-solid {
     display: none;
+    transition:
+            background-color 0.3s;
   }
 }
 /* Dark Mode */
@@ -418,6 +420,8 @@
     display: inline-block;
     position: relative;
     z-index: 1;
+    transition:
+            background-color 0.3s;
   }
   #cs-navigation .cs-button-solid:before {
     content: "";
