@@ -414,7 +414,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
     padding: 0 1.5rem;
-    color: #fff;
+    color: var(--headerColor);
     background-color: var(--primary);
     border-radius: 0.25rem;
     display: inline-block;

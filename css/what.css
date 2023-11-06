@@ -363,6 +363,7 @@
         background-color: rgba(0, 0, 0, 0.2);
     }
     body.dark-mode #sbsr-1363 .cs-button-solid{
+        color: var(--headerColor);
         background-color: var(--primaryDark);
     }
     body.dark-mode #sbsr-1363 .cs-image-group {
