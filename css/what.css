@@ -369,6 +369,9 @@
     body.dark-mode #sbsr-1363 .cs-image-group {
         border: .2rem solid transparent;
     }
+    body.dark-mode #sbsr-1363 .cs-button-solid:before {
+        background-color: #fff;
+    }
 }
 
                                

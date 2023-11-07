@@ -197,7 +197,10 @@
     body.dark-mode #hero-856 .cs-topper {
         color: var(--darkTopperColor);
     }
-    body.dark-mode #hero-856 .cs-button-solid{
+    body.dark-mode #hero-856 .cs-button-solid:before {
+        background-color: #fff;
+    }
+    body.dark-mode #hero-856 .cs-button-solid {
         background-color: var(--primaryDark);
         color: var(--headerColor);
         transition:
